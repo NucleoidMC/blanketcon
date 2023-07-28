@@ -1,0 +1,69 @@
+{
+  "type": "spleef:spleef",
+  "map": {
+    "shape": {
+      "type": "spleef:pattern",
+      "tiles": [
+        "xxxxxxxxxxxxxxxx",
+        "x              x",
+        "x              x",
+        "x              x",
+        "x              x",
+        "x              x",
+        "x xxx x  x xxx x",
+        "x  x  xx x  x  x",
+        "x  x  x xx  x  x",
+        "x  x  x  x  x  x",
+        "x              x",
+        "x              x",
+        "x              x",
+        "x              x",
+        "x              x",
+        "xxxxxxxxxxxxxxxx"
+      ],
+      "tile_size": 2
+    },
+    "wall_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:obsidian"
+      }
+    },
+    "levels": 4,
+    "level_height": 5
+  },
+  "players": {
+    "min": 1,
+    "max": 100,
+    "threshold": 2
+  },
+  "projectile": {
+    "restock_interval": 1,
+    "stack": {
+      "id": "minecraft:tnt",
+      "Count": 1,
+      "tag": {
+        "CanPlaceOn": [
+          "minecraft:obsidian",
+          "minecraft:snow_block",
+          "minecraft:tnt"
+        ]
+      }
+    }
+  },
+  "tool": {
+    "id": "minecraft:flint_and_steel",
+    "Count": 1,
+    "tag": {
+      "CanPlaceOn": [
+        "minecraft:tnt"
+      ]
+    }
+  },
+  "lava_rise": {
+    "ticks_per_level": 60
+  },
+  "level_break_interval": 400,
+  "unstable_tnt": false,
+  "icon": "minecraft:tnt"
+}

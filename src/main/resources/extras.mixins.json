@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.nucleoid.extras.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockWithEntityAccessor",
+    "ServerEntityManagerAccessor",
+    "ServerWorldAccessor",
+    "TextSerializerMixin",
+    "lobby.ArmorStandEntityAccessor",
+    "lobby.LivingEntityAccessor",
+    "lobby.ServerPlayerEntityMixin",
+    "lobby.ThreadedAnvilChunkStorageAccessor",
+    "patches.EntityMixin",
+    "patches.StatusEffectMixin",
+    "player_list.PlayerInteractionManagerMixin",
+    "player_list.PlayerListS2CPacketAccessor",
+    "player_list.PlayerManagerMixin",
+    "player_list.ServerScoreboardMixin",
+    "player_list.ServerWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

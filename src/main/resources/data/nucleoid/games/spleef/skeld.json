@@ -1,0 +1,119 @@
+{
+  "type": "spleef:spleef",
+  "level_break_interval": 1280000,
+  "map": {
+    "shape": {
+      "type": "spleef:pattern",
+      "tiles": [
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                        xxxxx      xxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxx        xxxxxxxxxxxxxxxxxxx                         xxxx       xxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxx         xxxxxxxxxxxxxxxxxxx                         xxxx        xxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxx          xxxxxxxxxxxxxxxxxxx                         xxxx         xxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                                                                     xxxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                                                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                                                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                                                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                                                       xxxx           xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxxxxx   xxxxx                         xxxxx          xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxx          x                         xxxxxx         xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxx          x                         xxxxxxxx    xxxxxxxxxxxxxxxxxxx",
+        "xxxxx  xx           xxxxxxxx          x                         xxxxxxxx    xxxxxxxxxxxxxxxxxxx",
+        "xxx    xxxxxxx   xxxxxxxxxxx          x                         xx    xx    xxxxxxxxxxxxxxxxxxx",
+        "x      xxxxxxx   xxxxx   xxx          xx                       xx                xxxxxx     xxx",
+        "x      xxxxxxx   xxxx     xx          xxx                     xx                 xxxxxx      xx",
+        "x         xxxx   xxxx     xx          xxxx                   xx                  xxxxxx       x",
+        "x         xxxx   xxxx     xx           xxxx                 xx                                 ",
+        "x         xxxx   xxxx     xx            xxxx               xxx        xxxxxxx                  ",
+        "x                         xx             xxxxxxxx    xxxxxxxxx        xxxxxxx                  ",
+        "x                         xxx            xxxxxxxx    xxxxxxxxx        xxxxxxx                  ",
+        "x                         xxxx           xxxxxxxx    xxxxxxxxxxxxxxxxxxx         xxxxxx       x",
+        "x                         xxxxx          xxxxxxxx    xxxxxxxxxxxxxxxxxxx         xxxxxx      xx",
+        "x         xxxx   xxxx     xxxxxxxxxxxxxxxxxxxxxxx                   xxxx         xxxxxx     xxx",
+        "x         xxxx   xxxx     xxxxxxxxxxxxxxxxxxxxxxx                   xxxx         xxxxxxxxxxxxxx",
+        "x         xxxx   xxxx     xxxx           xxxxxxxx                   xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "x      xxxxxxx   xxxxxxxxxxxxx           xxxxxxxx                   xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "x      xxxxxxx   xxxxxxxxxxxxx           xxxxxxxx    xxxx           xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "xxx    xxxxxxx   xxxxxxxxxxxxx          xxxx           xx           xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "xxxxx  xx           xxxxxxxxxx          xxx            xx           xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxxxx         xxx             xx           xxxx   xxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxxxx         xx              xx          xxxx        xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxxxxxxxx         xx              xxxxxxxxxxxxxxx         xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                   xx         xx              xxxxxxxxxxxxxx          xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                   xx         xx                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                   xx        xxx                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx                   xx       xxxx                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxx           xxxx    xx   xxxxxxxx                                      xxxxxxxxxxxxxxxx",
+        "xxxxxxxxxx          xxxx    xx   xxxxxxxx              xxxxxxx    xx          xxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxx         xxxx                               xxxxxxx    xx         xxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxx                               x           x        xxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxx                               x           x       xxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxx                               x           x      xxxxxxxxxxxx xx xxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx              x           xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx             x           xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            x           xxxxxxxxxxxxxxxxxxx xx xxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx           x           xxxxxxxxxxxxxxxxxxxx  xxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx          xx         xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      ],
+      "tile_size": 1
+    },
+    "floor_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:quartz_bricks"
+      }
+    },
+    "levels": 2,
+    "level_height": 5
+  },
+  "players": {
+    "min": 1,
+    "max": 100,
+    "threshold": 2
+  },
+  "tool": {
+    "id": "minecraft:netherite_pickaxe",
+    "Count": 1,
+    "tag": {
+      "Enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "lvl": 100
+        }
+      ]
+    }
+  },
+  "icon": "minecraft:poisonous_potato"
+}

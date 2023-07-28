@@ -1,0 +1,10 @@
+{
+  "type": "plasmid:random",
+  "games": [
+    "quakecraft:ctf_2fort"
+  ],
+  "name": {
+    "translate": "game.nucleoid.capture_the_flag"
+  },
+  "icon": "minecraft:purple_wool"
+}

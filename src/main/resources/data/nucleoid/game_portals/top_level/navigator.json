@@ -1,0 +1,63 @@
+{
+  "type": "nucleoid_extras:styled/advanced_menu",
+  "name": "Navigator",
+  "icon": "minecraft:compass",
+  "entries": [
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:top_level/bedwars_modes"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:buildrush"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:top_level/destroy_the_monument_modes"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:duels"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:fortress"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:koth"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:loopdeloop"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:quakecraft"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:rocketspleef"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:top_level/skywars_modes"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:snake"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:top_level/spleef_modes"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:survival_games"
+    },
+    {
+      "type": "plasmid:portal",
+      "portal": "nucleoid:the_towers"
+    }
+  ]
+}
