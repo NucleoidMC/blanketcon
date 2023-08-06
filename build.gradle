@@ -26,6 +26,7 @@ dependencies {
 
 	modImplementation 'xyz.nucleoid:plasmid:0.5.100+1.20.1'
 	modImplementation include('xyz.nucleoid:more-codecs:0.3.2+1.20')
+	modImplementation include('eu.pb4:predicate-api:0.2.1+1.20.1')
 
 	//modCompileOnly "com.viaversion:viaversion-api:4.7.0-SNAPSHOT"
 	modCompileOnly "dev.gegy:player-roles-api:1.6.5"

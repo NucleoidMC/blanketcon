@@ -11,6 +11,7 @@ import xyz.nucleoid.extras.game_portal.ExtrasGamePortals;
 import xyz.nucleoid.extras.game_portal.ServerChangePortalBackend;
 import xyz.nucleoid.extras.lobby.*;
 import xyz.nucleoid.extras.placeholder.ExtraPlaceholders;
+import xyz.nucleoid.extras.placeholder.ExtraPredicates;
 
 public final class NucleoidExtras implements ModInitializer {
     public static final String ID = "nucleoid_extras";
@@ -23,6 +24,7 @@ public final class NucleoidExtras implements ModInitializer {
         NEEntities.register();
         
         ExtraPlaceholders.register();
+        ExtraPredicates.register();
         ExtrasGamePortals.register();
 
         PlayerDataApi.register(PlayerLobbyState.STORAGE);

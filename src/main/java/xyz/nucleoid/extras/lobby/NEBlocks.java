@@ -75,9 +75,6 @@ public class NEBlocks {
     public static final Block FLOWERING_AZALEA_TATER = createTaterBlock(Blocks.FLOWERING_AZALEA_LEAVES, "ab6c05d3be9369c69984513f281932622bca807008def997222a6d4f8cb71d83");
     public static final Block PUZZLE_CUBE_TATER = createTaterBlock(ParticleTypes.FIREWORK, "41f8da5c342e799bfae154c16627b6190923eae27735ef7ffbdeb1a121c8811b");
     public static final Block LUCKY_TATER = createLuckyTaterBlock("7417598f8d30dd3582ce723a1303abeeca9ac6a96438967b7f4c043fe3562ebb", "a590c5d7d05cd4ad1747b7b4e265dc97a07b054175e1f25b488c2de021075329");
-    public static final Block FLIPPED_TATER = createTaterBlock(ParticleTypes.DAMAGE_INDICATOR, "9c1e33c4b7e6cb58e699aeb7ae412329f35cb443e50743c8896ed36dfb6a3588");
-    public static final Block BACKWARD_TATER = createTaterBlock(ParticleTypes.HEART, "c3d2eefca5fa2e0cc710fe067f4a7114df0f430eeaaa1d9c373e4c91c9ed0ea4");
-    public static final Block UPWARD_TATER = createTaterBlock(ParticleTypes.HEART, "60860143fea936066220eae3a31cdfe5aa9b4e525e194aa965c02272a01cb5c8");
 
     public static final Block TRANS_TATER = createColorPatternTaterBlock(new Vector3f[]{
         Vec3d.unpackRgb(0xEE90AD).toVector3f(), // pink
@@ -145,23 +142,6 @@ public class NEBlocks {
     public static final Block BLUE_TATEROID = createTateroidBlock(SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE, 17 / 24d, "89ad5aecfb9ab6f36261e0c462acecf2078e7e575d9373bacc0503224c44250e");
     public static final Block PURPLE_TATEROID = createTateroidBlock(SoundEvents.BLOCK_NOTE_BLOCK_FLUTE, 11 / 24d, "d16a37512cb7ca372af5f37f9bd95d4603c4fa44be4143fb26aaa324e681c9b0");
 
-    public static final Block WHITE_TATER = createColorTaterBlock(DyeColor.WHITE, "73dab052d33ee467ba7fac9aa0e316db962e3e7ac6dbbff236667439e340392c");
-    public static final Block ORANGE_TATER = createColorTaterBlock(DyeColor.ORANGE, "75b88126dbd4e860608965c044d0060ac03c26ebea1b652643fe03734ea1b12b");
-    public static final Block MAGENTA_TATER = createColorTaterBlock(DyeColor.MAGENTA, "bef4cf40f02bc129e34f660ce3923387894b8f0814fc58c09726629fa7b1db64");
-    public static final Block LIGHT_BLUE_TATER = createColorTaterBlock(DyeColor.LIGHT_BLUE, "e6f7e4641fa4ee4ba926ebae4669f22f276051b3629f8d89ce015a95c1137fb2");
-    public static final Block YELLOW_TATER = createColorTaterBlock(DyeColor.YELLOW, "5956df3e88f01cdd26d1caa07fab723c3a3db319ba167a3bed287d461635f1b9");
-    public static final Block LIME_TATER = createColorTaterBlock(DyeColor.LIME, "16671f4c7ce8e46099f367fc05c5b61089c887f4145aff2077a1a7d3631dd063");
-    public static final Block PINK_TATER = createColorTaterBlock(DyeColor.PINK, "b3efebba4906f9f260aae83fee73012370521726fadf0101498197d7143a64df");
-    public static final Block GRAY_TATER = createColorTaterBlock(DyeColor.GRAY, "7e491b6282eca12c9edcddfb3baf6e5fb0549c89d39088567415616c92dfd5f0");
-    public static final Block LIGHT_GRAY_TATER = createColorTaterBlock(DyeColor.LIGHT_GRAY, "b5df73cc026043d09c54cb15d0923e314503e1d513026b59a5317b31da4c5289");
-    public static final Block CYAN_TATER = createColorTaterBlock(DyeColor.CYAN, "4eb39032053a3f2e5bd1d19bfacd25b524b19cd0e70a5a92a61ac884904ecb54");
-    public static final Block PURPLE_TATER = createColorTaterBlock(DyeColor.PURPLE, "ab69ffa68135001e8714c78617e5a1a0177827cbbd866eb984f524f023f87fe5");
-    public static final Block BLUE_TATER = createColorTaterBlock(DyeColor.BLUE, "618be72e94291de1cc3e3d2e2fa8bbd79422cdcb0cb70cedde7dc9c1bbef5fb5");
-    public static final Block BROWN_TATER = createColorTaterBlock(DyeColor.BROWN, "df942f7c24f4c10353da974a938ad75f9a7ccdca232a99de870c5691d75fd70c");
-    public static final Block GREEN_TATER = createColorTaterBlock(DyeColor.GREEN, "fab98a4c69e817771fec17c08c7e031952c05a52015dcecb09c93576745c71e2");
-    public static final Block RED_TATER = createColorTaterBlock(DyeColor.RED, "51e4bf6f7a029567d598fff73c3c76e0cdea956a7fff5ea7279ea4bf40c968c2");
-    public static final Block BLACK_TATER = createColorTaterBlock(DyeColor.BLACK, "57a7caa44cedff925d23cd5d3f62bc06e83d3485551dcc4f9db2da7d9f8a9694");
-
     public static final Block COAL_TATER = createTaterBlock(Blocks.COAL_BLOCK, "7eb25d3f8fcf48673ad0b171ea37154b43d57f6ab04d8ffb546fc606b8505bf4");
     public static final Block DIAMOND_TATER = createTaterBlock(Blocks.DIAMOND_BLOCK, "a399c9d599e0d9dc6a480e85f4dbecc45b318814026895ac8150fd2e2fa2599e");
     public static final Block EMERALD_TATER = createTaterBlock(ParticleTypes.HAPPY_VILLAGER, "cd76730df726b8ee9d72a3a478457d313626133de1d76c26cfc6af8e80e9c476");
@@ -171,30 +151,20 @@ public class NEBlocks {
     public static final Block NETHERITE_TATER = createTaterBlock(Blocks.NETHERITE_BLOCK, "664dce4fade8e5f352001eff6900d9d4b142935ebed303106539f7ad0193621f");
     public static final Block QUARTZ_TATER = createTaterBlock(Blocks.QUARTZ_BLOCK, "7e7b4561d09d1a726fec3607706c9e3c77e8fc9b8c7e9c3637ca80ea0c86be21");
     public static final Block REDSTONE_TATER = createRedstoneTaterBlock(new DustParticleEffect(DustParticleEffect.RED, 1), "c47dd2536f5a5eb2bdb1ea4389d3af8ca2fd9d5d2c97c660fc5bf4d970c974de");
-
     public static final Block COPPER_TATER = createTaterBlock(ParticleTypes.SCRAPE, "18207c7cf4007222691750b0783d6959261ddf72980483f7c9fcf96c2cba85b1");
 
     public static final Block CAKE_TATER = createTaterBlock(Blocks.CAKE, "6d46fd58fd566bc0a90f8bc921daf0d9920591a5b153e64a80bb6d54dfb415b9");
     public static final Block PUMPKIN_TATER = createTaterBlock(Blocks.PUMPKIN, "21004377d30b55fd2f176e50e431ba88bd9eb8f353b103a67098a3fcbc12119d");
-    public static final Block JACK_O_TATER = createTaterBlock(Blocks.JACK_O_LANTERN, "16772b77233f9d9035436287861b206ac13112d552a6c8e9754b26486b1e5bd");
     public static final Block SCULK_TATER = createTaterBlock(ParticleTypes.SOUL, "4265450388096aeb3d228c3b99f6ec64ea4a1a846c9903c7d9db1c309e27469b");
     public static final Block SLIME_TATER = createTaterBlock(Blocks.SLIME_BLOCK, "16747a7e1605794debfbb43befda2ce986075b3969e0b247ddd7bc6cdaa56a51");
     public static final Block SNOWMAN_TATER = createTaterBlock(ParticleTypes.SNOWFLAKE, "89ceb42efcfc372cbb26f817e1707a16864af16e0e37c793db05b16cd1f82ac");
 
-    public static final Block TNTATER = createTaterBlock(ParticleTypes.EXPLOSION, "440d175ded62ff7b3cf9de979196e7b95da8a25e9e888c4bed06f5c011dc54a8", 10);
-    public static final Block WOOL_TATER = createTaterBlock(Blocks.WHITE_WOOL, "ed564fa98b7e8e3abf41779bfe759ca0a3191c8aa70f2eef0af139ba1102e27e");
-
     public static final Block BEE_TATER = createTaterBlock(ParticleTypes.FALLING_HONEY, "80480b902bb32e2b145bb5262629ad7a920d3600365d3101936efc35aad830bd");
-    public static final Block BLAZE_TATER = createTaterBlock(ParticleTypes.FLAME, "85e678d6edab035d25841cfb4c90b631a7242e9d4cf6bcf00f168b8bf7cd290d");
-    public static final Block EYE_OF_ENDER_TATER = createTaterBlock(ParticleTypes.REVERSE_PORTAL, "36fc9fc2b0ab94a11303e3efb8b2534662e5d11ac8a9b9310b588a512eaab55e");
     public static final Block FOX_TATER = createTaterBlock(ParticleTypes.HEART, "d0d40bc2aa788d6f9d0e3fcde50714f3f47d5db64f3d6a11b2c3fad2b65ba1ea");
     public static final Block PUFFERTATER = createTaterBlock(ParticleTypes.DRIPPING_WATER, "4d777aa416424b7bb713c158117f7392a74ebd1fe49eff6fa2c4b1192720eb48");
     public static final Block RUBY_TATER = createTaterBlock(ParticleTypes.HAPPY_VILLAGER, "becb1ee95fba3f868fc36c126e5962244ac4bf64cd35b117871e62590a1660ed");
 
     public static final Block AZALEA_TATER = createTaterBlock(Blocks.AZALEA_LEAVES, "dc836641ecb40e775f85f4c71b219120e43080e03b8c84a7f60f1ba8127f2931");
-
-    public static final Block JUKEBOX_TATER = createTaterBlock(ParticleTypes.NOTE, "75f6f61e3a9035a758174979ca664b26e47ca9b273f324f0921b5ad58bdb5835");
-    public static final Block LANTERN_TATER = createTaterBlock(ParticleTypes.FLASH, "16c275f657bac1363333abf1db0d18bfabf087fbf3df356ec7f41258bc16b76d", 20);
 
     public static final Block ALLAY_TATER = createTaterBlock(ParticleTypes.HEART, "36911b99859c6627cba710041a7ce4ab17791e5c9278a85c75c1596dd1c789bb");
     public static final Block CORRUPTATER = new CorruptaterBlock(createTaterBlockSettings(), 2);
@@ -303,9 +273,6 @@ public class NEBlocks {
         register("lesbian_tater", LESBIAN_TATER);
         register("nonbinary_tater", NONBINARY_TATER);
         register("pan_tater", PAN_TATER);
-        register("flipped_tater", FLIPPED_TATER);
-        register("backward_tater", BACKWARD_TATER);
-        register("upward_tater", UPWARD_TATER);
         register("genderfluid_tater", GENDERFLUID_TATER);
         register("demisexual_tater", DEMISEXUAL_TATER);
 
@@ -318,23 +285,6 @@ public class NEBlocks {
         register("green_tateroid", GREEN_TATEROID);
         register("blue_tateroid", BLUE_TATEROID);
         register("purple_tateroid", PURPLE_TATEROID);
-
-        register("white_tater", WHITE_TATER);
-        register("orange_tater", ORANGE_TATER);
-        register("magenta_tater", MAGENTA_TATER);
-        register("light_blue_tater", LIGHT_BLUE_TATER);
-        register("yellow_tater", YELLOW_TATER);
-        register("lime_tater", LIME_TATER);
-        register("pink_tater", PINK_TATER);
-        register("gray_tater", GRAY_TATER);
-        register("light_gray_tater", LIGHT_GRAY_TATER);
-        register("cyan_tater", CYAN_TATER);
-        register("purple_tater", PURPLE_TATER);
-        register("blue_tater", BLUE_TATER);
-        register("brown_tater", BROWN_TATER);
-        register("green_tater", GREEN_TATER);
-        register("red_tater", RED_TATER);
-        register("black_tater", BLACK_TATER);
 
         register("coal_tater", COAL_TATER);
         register("diamond_tater", DIAMOND_TATER);
@@ -350,24 +300,16 @@ public class NEBlocks {
 
         register("cake_tater", CAKE_TATER);
         register("pumpkin_tater", PUMPKIN_TATER);
-        register("jack_o_tater", JACK_O_TATER);
         register("sculk_tater", SCULK_TATER);
         register("slime_tater", SLIME_TATER);
         register("snowman_tater", SNOWMAN_TATER);
 
-        register("tntater", TNTATER);
-        register("wool_tater", WOOL_TATER);
-
         register("bee_tater", BEE_TATER);
-        register("blaze_tater", BLAZE_TATER);
-        register("eye_of_ender_tater", EYE_OF_ENDER_TATER);
         register("fox_tater", FOX_TATER);
         register("puffertater", PUFFERTATER);
         register("ruby_tater", RUBY_TATER);
 
         register("azalea_tater", AZALEA_TATER);
-        register("jukebox_tater", JUKEBOX_TATER);
-        register("lantern_tater", LANTERN_TATER);
 
         register("allay_tater", ALLAY_TATER);
 

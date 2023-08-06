@@ -128,28 +128,8 @@ public class NEItems {
     public static final Item GREEN_TATEROID = createHead(NEBlocks.GREEN_TATEROID);
     public static final Item BLUE_TATEROID = createHead(NEBlocks.BLUE_TATEROID);
     public static final Item PURPLE_TATEROID = createHead(NEBlocks.PURPLE_TATEROID);
-    public static final Item FLIPPED_TATER = createHead(NEBlocks.FLIPPED_TATER);
-    public static final Item BACKWARD_TATER = createHead(NEBlocks.BACKWARD_TATER);
-    public static final Item UPWARD_TATER = createHead(NEBlocks.UPWARD_TATER);
     public static final Item GENDERFLUID_TATER = createHead(NEBlocks.GENDERFLUID_TATER);
     public static final Item DEMISEXUAL_TATER = createHead(NEBlocks.DEMISEXUAL_TATER);
-
-    public static final Item WHITE_TATER = createHead(NEBlocks.WHITE_TATER);
-    public static final Item ORANGE_TATER = createHead(NEBlocks.ORANGE_TATER);
-    public static final Item MAGENTA_TATER = createHead(NEBlocks.MAGENTA_TATER);
-    public static final Item LIGHT_BLUE_TATER = createHead(NEBlocks.LIGHT_BLUE_TATER);
-    public static final Item YELLOW_TATER = createHead(NEBlocks.YELLOW_TATER);
-    public static final Item LIME_TATER = createHead(NEBlocks.LIME_TATER);
-    public static final Item PINK_TATER = createHead(NEBlocks.PINK_TATER);
-    public static final Item GRAY_TATER = createHead(NEBlocks.GRAY_TATER);
-    public static final Item LIGHT_GRAY_TATER = createHead(NEBlocks.LIGHT_GRAY_TATER);
-    public static final Item CYAN_TATER = createHead(NEBlocks.CYAN_TATER);
-    public static final Item PURPLE_TATER = createHead(NEBlocks.PURPLE_TATER);
-    public static final Item BLUE_TATER = createHead(NEBlocks.BLUE_TATER);
-    public static final Item BROWN_TATER = createHead(NEBlocks.BROWN_TATER);
-    public static final Item GREEN_TATER = createHead(NEBlocks.GREEN_TATER);
-    public static final Item RED_TATER = createHead(NEBlocks.RED_TATER);
-    public static final Item BLACK_TATER = createHead(NEBlocks.BLACK_TATER);
 
     public static final Item COAL_TATER = createHead(NEBlocks.COAL_TATER);
     public static final Item DIAMOND_TATER = createHead(NEBlocks.DIAMOND_TATER);
@@ -166,23 +146,15 @@ public class NEItems {
 
     public static final Item CAKE_TATER = createHead(NEBlocks.CAKE_TATER);
     public static final Item PUMPKIN_TATER = createHead(NEBlocks.PUMPKIN_TATER);
-    public static final Item JACK_O_TATER = createHead(NEBlocks.JACK_O_TATER);
     public static final Item SCULK_TATER = createHead(NEBlocks.SCULK_TATER);
     public static final Item SLIME_TATER = createHead(NEBlocks.SLIME_TATER);
     public static final Item SNOWMAN_TATER = createHead(NEBlocks.SNOWMAN_TATER);
 
-    public static final Item TNTATER = createHead(NEBlocks.TNTATER);
-    public static final Item WOOL_TATER = createHead(NEBlocks.WOOL_TATER);
-
     public static final Item BEE_TATER = createHead(NEBlocks.BEE_TATER);
-    public static final Item BLAZE_TATER = createHead(NEBlocks.BLAZE_TATER);
-    public static final Item EYE_OF_ENDER_TATER = createHead(NEBlocks.EYE_OF_ENDER_TATER);
     public static final Item FOX_TATER = createHead(NEBlocks.FOX_TATER);
     public static final Item PUFFERTATER = createHead(NEBlocks.PUFFERTATER);
 
     public static final Item AZALEA_TATER = createHead(NEBlocks.AZALEA_TATER);
-    public static final Item JUKEBOX_TATER = createHead(NEBlocks.JUKEBOX_TATER);
-    public static final Item LANTERN_TATER = createHead(NEBlocks.LANTERN_TATER);
 
     public static final Item ALLAY_TATER = createHead(NEBlocks.ALLAY_TATER);
 
@@ -261,28 +233,8 @@ public class NEItems {
         registerTater("green_tateroid", GREEN_TATEROID);
         registerTater("blue_tateroid", BLUE_TATEROID);
         registerTater("purple_tateroid", PURPLE_TATEROID);
-        registerTater("flipped_tater", FLIPPED_TATER);
-        registerTater("backward_tater", BACKWARD_TATER);
-        registerTater("upward_tater", UPWARD_TATER);
         registerTater("genderfluid_tater", GENDERFLUID_TATER);
         registerTater("demisexual_tater", DEMISEXUAL_TATER);
-
-        registerTater("white_tater", WHITE_TATER);
-        registerTater("orange_tater", ORANGE_TATER);
-        registerTater("magenta_tater", MAGENTA_TATER);
-        registerTater("light_blue_tater", LIGHT_BLUE_TATER);
-        registerTater("yellow_tater", YELLOW_TATER);
-        registerTater("lime_tater", LIME_TATER);
-        registerTater("pink_tater", PINK_TATER);
-        registerTater("gray_tater", GRAY_TATER);
-        registerTater("light_gray_tater", LIGHT_GRAY_TATER);
-        registerTater("cyan_tater", CYAN_TATER);
-        registerTater("purple_tater", PURPLE_TATER);
-        registerTater("blue_tater", BLUE_TATER);
-        registerTater("brown_tater", BROWN_TATER);
-        registerTater("green_tater", GREEN_TATER);
-        registerTater("red_tater", RED_TATER);
-        registerTater("black_tater", BLACK_TATER);
 
         registerTater("coal_tater", COAL_TATER);
         registerTater("diamond_tater", DIAMOND_TATER);
@@ -299,23 +251,15 @@ public class NEItems {
 
         registerTater("cake_tater", CAKE_TATER);
         registerTater("pumpkin_tater", PUMPKIN_TATER);
-        registerTater("jack_o_tater", JACK_O_TATER);
         registerTater("sculk_tater", SCULK_TATER);
         registerTater("slime_tater", SLIME_TATER);
         registerTater("snowman_tater", SNOWMAN_TATER);
 
 
-        registerTater("tntater", TNTATER);
-        registerTater("wool_tater", WOOL_TATER);
-
         registerTater("bee_tater", BEE_TATER);
-        registerTater("blaze_tater", BLAZE_TATER);
-        registerTater("eye_of_ender_tater", EYE_OF_ENDER_TATER);
         registerTater("fox_tater", FOX_TATER);
         registerTater("puffertater", PUFFERTATER);
         registerTater("azalea_tater", AZALEA_TATER);
-        registerTater("jukebox_tater", JUKEBOX_TATER);
-        registerTater("lantern_tater", LANTERN_TATER);
 
         registerTater("allay_tater", ALLAY_TATER);
 
