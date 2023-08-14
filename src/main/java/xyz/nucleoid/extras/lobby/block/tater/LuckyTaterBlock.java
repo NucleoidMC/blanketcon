@@ -55,6 +55,42 @@ public class LuckyTaterBlock extends CubicPotatoBlock {
         return new DustColorTransitionParticleEffect(Vec3d.unpackRgb(fromColor).toVector3f(), Vec3d.unpackRgb(toColor).toVector3f(), scale);
     }
 
+    @Override
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        if (hand == Hand.OFF_HAND || this.isCoolingDown(state)) {
+            return ActionResult.FAIL;
+        }
+
+        if (world instanceof ServerWorld serverWorld) {
+            Block drop = this.getDrop(serverWorld);
+            if (drop instanceof CubicPotatoBlock taterDrop) {
+                BlockPos dropPos = this.getDropPos(serverWorld, state, pos);
+                if (dropPos != null) {
+                    BlockState dropState = drop.getDefaultState();
+                    if (dropState.contains(Properties.ROTATION)) {
+                        dropState = dropState.with(Properties.ROTATION, state.get(Properties.ROTATION));
+                    }
+
+                    world.setBlockState(dropPos, dropState);
+                    
+                    // Spawn particles
+                    ParticleEffect particleEffect = taterDrop.getBlockParticleEffect(taterDrop.getDefaultState(), serverWorld, pos, player, hand, hit);
+                    this.spawnBlockParticles(serverWorld, pos, particleEffect);
+
+                    // Play sound
+                    float pitch = 0.5f + world.getRandom().nextFloat() * 0.4f;
+                    world.playSound(null, pos, SoundEvents.ENTITY_ITEM_PICKUP, SoundCategory.BLOCKS, 1, pitch);
+
+                    // Start cooldown
+                    world.setBlockState(pos, state.with(COOLDOWN, true));
+                    world.scheduleBlockTick(pos, this, COOLDOWN_TICKS);
+                }
+            }
+        }
+
+        return ActionResult.SUCCESS;
+    }
+
     private Block getDrop(ServerWorld world) {
         var drops = Registries.BLOCK.getEntryList(LUCKY_TATER_DROPS);
 

@@ -17,7 +17,6 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RotationPropertyHelper;
-import xyz.nucleoid.extras.util.SkinEncoder;
 
 import java.util.ArrayList;
 import java.util.List;

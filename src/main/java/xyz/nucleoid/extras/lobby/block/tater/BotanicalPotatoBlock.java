@@ -113,6 +113,8 @@ public class BotanicalPotatoBlock extends TinyPotatoBlock implements BlockWithEl
             mat.rotateY(-RotationPropertyHelper.toDegrees(state.get(Properties.ROTATION)) * MathHelper.RADIANS_PER_DEGREE);
 
             if (this.jumpTime > 0) {
+                // Math stolen from botania™
+                // https://github.com/VazkiiMods/Botania/blob/bd5c644356fa0456efc3773c8829517f1f2c5808/Xplat/src/main/java/vazkii/botania/client/render/block_entity/TinyPotatoBlockEntityRenderer.java#L139
                 float up = (float) Math.abs(Math.sin(this.jumpTime / 10f * Math.PI)) * 0.2F;
                 float rotZ = (float) Math.sin(this.jumpTime / 10f * Math.PI) * 2;
                 float wiggle = (float) Math.sin(this.jumpTime / 10f * Math.PI) * 0.05F;

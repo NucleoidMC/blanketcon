@@ -97,5 +97,6 @@
   "game.nucleoid.uhcrun.solo": "UHCRun (Solo)",
   "game.nucleoid.uhcrun.duos": "UHCRun (Duos)",
   "game.nucleoid.uhcrun.trios": "UHCRun (Trios)",
-  "game.nucleoid.uhcrun.squads": "UHCRun (Squads)"
+  "game.nucleoid.uhcrun.squads": "UHCRun (Squads)",
+  "gameType.survival.uhcrun.squads": "UHCRun (Squads)"
 }
