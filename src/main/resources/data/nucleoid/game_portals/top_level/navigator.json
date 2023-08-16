@@ -9,7 +9,7 @@
     },
     {
       "type": "plasmid:portal",
-      "portal": "nucleoid:buildrush"
+      "portal": "build_rush:root"
     },
     {
       "type": "plasmid:portal",
