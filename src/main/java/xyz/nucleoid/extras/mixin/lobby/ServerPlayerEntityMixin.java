@@ -7,11 +7,13 @@ import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import xyz.nucleoid.extras.lobby.NEBlocks;
 import xyz.nucleoid.extras.lobby.block.FastPathBlock;
@@ -57,5 +59,10 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity {
                 entityAttributeInstance.removeModifier(FastPathBlock.FAST_PATH_BOOST);
             }
         }
+    }
+
+    @Redirect(method = "moveToSpawn", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/network/SpawnLocating;findOverworldSpawn(Lnet/minecraft/server/world/ServerWorld;II)Lnet/minecraft/util/math/BlockPos;"))
+    private BlockPos extras$forceFixedSpawn(ServerWorld world, int x, int z) {
+        return world.getSpawnPos();
     }
 }

@@ -37,6 +37,7 @@ public class NEBlocks {
     public static final Block END_GATEWAY = new VirtualEndGatewayBlock(AbstractBlock.Settings.create().pistonBehavior(PistonBehavior.BLOCK).strength(100).noCollision());
     public static final Block SAFE_TNT = createSimple(Blocks.TNT);
     public static final Block FAST_PATH = new FastPathBlock(AbstractBlock.Settings.copy(Blocks.DIRT_PATH));
+    public static final Block INVISIBLE_PORTAL = new InvisiblePortalBlock(AbstractBlock.Settings.copy(Blocks.BARRIER));
 
     public static final Block BLACK_CONCRETE_POWDER = createSimple(Blocks.BLACK_CONCRETE_POWDER);
     public static final Block BLUE_CONCRETE_POWDER = createSimple(Blocks.BLUE_CONCRETE_POWDER);
@@ -205,6 +206,7 @@ public class NEBlocks {
     public static final Block BLUE_AXOLOTL_TATER = createTaterBlock(ParticleTypes.HEART, "88bc29626c5311e82f18a692d7b26bec5b841a0533ba633e5887a172c765bf05");
 
     public static final Block CORRUPTATER = new CorruptaterBlock(createTaterBlockSettings(), 2);
+    public static final BlockEntityType<InvisiblePortalBlockEntity> INVISIBLE_PORTAL_ENTITY = FabricBlockEntityTypeBuilder.create(InvisiblePortalBlockEntity::new, INVISIBLE_PORTAL).build();
 
     public static final BlockEntityType<LaunchPadBlockEntity> LAUNCH_PAD_ENTITY = FabricBlockEntityTypeBuilder.create(LaunchPadBlockEntity::new, GOLD_LAUNCH_PAD, IRON_LAUNCH_PAD).build();
     public static final BlockEntityType<TateroidBlockEntity> TATEROID_ENTITY = FabricBlockEntityTypeBuilder.create(TateroidBlockEntity::new, TATEROID, RED_TATEROID, ORANGE_TATEROID, YELLOW_TATEROID, GREEN_TATEROID, BLUE_TATEROID, PURPLE_TATEROID).build();
@@ -400,6 +402,9 @@ public class NEBlocks {
 
         registerBlockEntity("launch_pad", LAUNCH_PAD_ENTITY);
         registerBlockEntity("tateroid", TATEROID_ENTITY);
+
+        register("invisible_portal", INVISIBLE_PORTAL);
+        registerBlockEntity("invisible_portal", INVISIBLE_PORTAL_ENTITY);
 
         TinyPotatoBlock.TATERS.sort(Comparator.comparing(x -> Registries.BLOCK.getId(x).getPath()));
     }
